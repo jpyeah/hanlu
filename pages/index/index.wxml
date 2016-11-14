@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<form bindsubmit="formSubmit" bindreset="formRest">
+<view class="flex-area">
+    <view class="flex-item bc_from">
+         <picker bindchange="bindPickerFromChange" value="{{index}}" range="{{area}}">
+              <view class="pickerfrom">
+                  {{area[gofrom]}}
+              </view>
+        </picker>
+    </view>
+    <view class="flex-item bc_change">
+       <image class="" src="images/change.png"></image>
+    </view>
+    <view class="flex-item bc_to"> 
+      <picker bindchange="bindPickerToChange" value="{{index}}" range="{{area}}">
+              <view class="pickerto">
+                  {{area[goto]}}
+              </view>
+        </picker>
+    </view>
+</view>
+<view class="flex-time">
+      <picker mode="date" value="{{date}}" start="2016-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view class="picker">
+           <text class="flex-text"> 出发日期:</text><text>{{date}}</text>
+          </view>
+      </picker>
+</view>
+<view class="flex-time">
+      <picker bindchange="bindPickerTimeChange" value="{{index}}" range="{{gotime}}">
+          <view class="picker">
+           <text class="flex-text"> 时间日期:</text><text>{{gotime[gotim]}}</text>
+          </view>
+      </picker>
+</view>
+
+<view class="flex-seat">
+      <picker bindchange="bindPickerSeatChange" value="{{index}}" range="{{seat}}">
+          <view class="picker">
+           <text class="flex-text-seat"> 席别:</text><text>{{seat[seatset]}}</text>
+          </view>
+      </picker>
+</view>
+<view class="flex-time">
+<button formType="submit" type="submit" class="button_css" >提交查询</button>
+</view>
+</form>
+<view class="flex-time">
+      
+</view>
+

@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#515151",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+    
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "车票预定",
+      "iconPath": "icons/ticket.png",
+      "selectedIconPath": "icons/ticket(1).png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "订单查询",
+      "iconPath": "icons/order.png",
+      "selectedIconPath": "icons/order(1).png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "个人中心",
+      "iconPath": "icons/personal-center.png",
+      "selectedIconPath": "icons/personal-center(1).png"
+    }],
+    "borderStyle": "white"
+  }
+
+
+}

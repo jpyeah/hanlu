@@ -1,0 +1,49 @@
+/**index.wxss**/
+.flex-area {
+width:100%;
+height:10pt;
+flex-direction:row;
+margin-top:20pt;
+
+}
+.flex-item{
+  display:inline-block;
+  width:33.3%;
+  height:20pt;
+  text-align: center;
+
+}
+.flex-item image{
+  over-flow:hidden;
+  height:10pt;
+}
+.flex-time{
+  margin-top:30pt;
+  margin-left:30pt;
+}
+.pickerto{
+  font-weight:bold;
+}
+.pickerfrom{
+  font-weight:bold;
+}
+.flex-text{
+  color:#dbdbdb;
+  margin-right:20pt;
+}
+.flex-seat{
+  margin-top:30pt;
+  margin-left:30pt;
+}
+.flex-text-seat{
+  color:#dbdbdb;
+  margin-right:45pt;
+}
+.button_css{
+  width:90%;
+  margin-left:1pt;
+  background-color:#62b900;
+  color:#fff;
+  
+}
+
